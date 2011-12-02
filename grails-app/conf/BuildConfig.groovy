@@ -42,5 +42,7 @@ grails.project.dependency.resolution = {
         compile ":resources:1.1.1"
 
         build ":tomcat:$grailsVersion"
+
+        test ":spock:0.6-SNAPSHOT"
     }
 }

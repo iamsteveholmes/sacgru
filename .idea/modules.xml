@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sacgru-2.iml" filepath="$PROJECT_DIR$/Sacgru-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sacgru-2-grailsPlugins.iml" filepath="$PROJECT_DIR$/Sacgru-2-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
