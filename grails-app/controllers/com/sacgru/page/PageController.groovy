@@ -14,7 +14,7 @@ class PageController {
             render(view: 'create', model: [page: new Page(title: params.title)])
             //redirect(controller: 'page', action: 'create', params: params)
         } else {
-            render xwikiRenderer.render(page.content, "mediawiki/1.0", "xhtml/1.0")
+            render xwikiRenderer.render(page.content, "xwiki/2.1", "xhtml/1.0")
         }
     }
     
