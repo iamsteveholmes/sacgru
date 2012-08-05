@@ -9,4 +9,8 @@ class Page {
         content maxSize: 1024 * 1024, nullable: false
         title nullable: false
     }
+
+    public void setTitle(String title){
+        this.title = title.toLowerCase()
+    }
 }
